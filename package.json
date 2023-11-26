@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "live-server",
-    "build": "rollup -c",
+    "build": "rollup -c --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,6 +15,17 @@
   "author": "Viktor Prodeus",
   "license": "ISC",
   "devDependencies": {
-    "rollup": "^4.5.2"
-  }
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.54.0",
+    "rollup": "^4.5.2",
+    "rollup-plugin-css-only": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktorProdeus/book.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ViktorProdeus/book/issues"
+  },
+  "homepage": "https://github.com/ViktorProdeus/book#readme"
 }
